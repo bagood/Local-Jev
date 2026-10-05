@@ -1,0 +1,12 @@
+name: base_ollama
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.12
+  - ollama
+  - llama-cpp-python
+  - huggingface_hub
+  - numpy
+  - jupyterlab
+  - fastapi
+  - uvicorn
